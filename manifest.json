@@ -1,0 +1,28 @@
+{
+    "name": "JobSaver",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage",
+        "identity"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "assets/icon16.png",
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png"
+    },
+    "oauth2": {
+        "client_id": "817762712905-b00paa4bu4rskjc9k646rmv8cs7smg22.apps.googleusercontent.com.apps.googleusercontent.com",
+        "scopes": [
+            "https://www.googleapis.com/auth/spreadsheets"
+        ]
+    }
+}
